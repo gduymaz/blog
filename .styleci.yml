@@ -1,0 +1,19 @@
+risky: true
+version: 8.0
+preset: recommended
+tab-width: 4
+use-tabs: false
+enabled:
+  - strict
+  - unalign_double_arrow
+  - concat_with_spaces
+  - blank_line_before_for
+  - blank_line_before_if
+  - blank_line_before_switch
+  - blank_line_before_while
+disabled:
+  - align_double_arrow
+  - concat_without_spaces
+finder:
+  name:
+    - "*.php"
